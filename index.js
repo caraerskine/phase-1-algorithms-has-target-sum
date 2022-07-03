@@ -1,15 +1,35 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+ for (let i = 0; i < array.length; i++) {
+  
+  const partnerNumber = target - array[i];
+  
+  for (let j = i + 1; j < array.length; j++) {
+    if (array[j] === partnerNumber) return true
+  
+    }
+  
+   }
+  return false;
 }
+
+//<-- ! -->
+//<-- ! -->
 
 /* 
   Write the Big O time complexity of your function here
 */
+//the more integers that are in the array the longer it will take to
+//iterate just because there is more information.
+//how to say 'target number'
 
 /* 
   Add your pseudocode here
 */
-
+//if two numbers in the array add up to the target 
+//return true
+//if no two numbers in the array add up to the target
+//return false
 /*
   Add written explanation of your solution here
 */

@@ -32,6 +32,11 @@ hasTargetSum([22, 19, 4, 6, 30], 25);
 hasTargetSum([1, 2, 5], 4);
 // returns false, since no pair of numbers adds up to 4
 ```
+//function returns true if any pair of numbers adds up to the target number
+//function returns false, otherwise
+hasTargetSum ('array' , 'target')
+
+
 
 This is a challenging problem, but you have the tools to come up with a
 solution! It's ok if your initial solution isn't optimal from a runtime
